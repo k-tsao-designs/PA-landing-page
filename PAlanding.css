@@ -1,0 +1,246 @@
+html, body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+.maincontent {
+	padding-bottom: 170px;
+}
+
+header {
+	height: 120px;
+	background-color: rgb(179,225,118);
+	width: 100%;
+}
+
+footer {
+	background-color: rgb(186, 211,211);
+	color: #000;
+	font-size:12px; 
+	height: 140px;
+	margin: -140px 0 -20px;
+	padding: 0 10%;
+	position: relative;
+	clear: both;
+}
+
+#headerLogo {
+	display: block;
+	margin: 0 auto;
+	height: 80%;
+	padding-top: 10px;
+}
+
+.PAHeader {
+	width: 100%;
+}
+
+.section {
+	width: 80%;
+	margin: 0% 10%;
+	position: relative;
+}
+
+.halfsection {
+	width: 45%;
+	position: relative;
+}
+
+#halfleft {
+	float: left;
+}
+#halfright {
+	float: right;
+}
+
+.form {
+	height: 26em;
+	background-color: rgb(186, 211,211);
+	margin-top: 6%;
+	margin-bottom: 12px;
+	padding: 15px 20px 15px;
+}
+
+label {
+	display: inline-block;
+	text-align: left;
+	font-weight: 500;
+	width: 100px;
+}
+
+input {
+	font-family: "Raleway" sans-serif;
+	font-size: .9em;
+	width: 90%;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #999;
+	padding: 4px;
+	margin-bottom: 10px;
+}
+
+input:focus {
+	border-color: #000;
+}
+
+.button {
+	text-align: left;
+
+}
+
+button {
+	background-color: rgb(179,225,118);
+	padding: 10px 15px;
+	font-size: 1em;
+	font-weight: 600;
+/*	border: 2px #7CB236 solid;*/
+	border-color: #7CB236;
+	text-decoration: none;
+	margin-top: 5px;
+}
+
+@media (min-width:1092px) {
+	button {margin-left: 105px;}
+	label {text-align: right;}
+	input {width:70%;}
+	.form {height: 21em;}
+}
+
+.twitterpromo {
+	font-weight: 800;
+	color: rgb(48, 61, 62);
+}
+
+.fa-twitter {
+	color: rgb(0,172,237);
+	margin-top: .25em;
+}
+
+.linktohomepage {
+	clear: both;
+	margin-bottom: 2em;
+}
+
+a {
+	text-decoration-color: rgb(139,197,64);
+}
+
+h1 {
+	color:rgb(247,150,22);
+	font-weight: 600;
+	font-size: 2em;
+	display: block;
+}
+
+h2 {
+	font-weight:500;
+	padding: 3% 0;
+}
+
+h3 {
+	font-weight: 400;
+	line-height: 1.35em;
+	font-size: 1.0em;
+}
+
+h4 {
+	font-weight: 500;
+	font-size: .8em;
+	margin-top: 0;
+	color: rgb(116,116,116);
+	margin-bottom: 7%;
+}
+
+.emph2 {
+	margin-top: 0;
+	color: white;
+	font-weight: 800;
+	font-size: 1.7em;
+	text-align: center;
+}
+
+.highlight {
+	font-weight: 600;
+	color: rgb(139,197,64);
+	font-size: 1.2em;
+}
+
+#extraspace1 {
+	margin-bottom: 5px;
+}
+#extraspace2 {
+	margin-top: 5px;
+}
+
+.testimonial {
+
+}
+
+.testimonial .highlight {
+	font-size: 1.4em;
+}
+
+#testifyLeft {
+	float: left;
+	margin-bottom: 30px;
+
+}
+#testifyRight {
+	float: right;
+	margin-bottom: 30px;
+}
+.quoteIcon {
+	height: 60px;
+	position: absolute;
+	margin-left: -40px;
+}
+.testifyLogo {
+	height: 80px;
+	padding-left: 30%;
+}
+#StoryPartners {
+	padding-left: 15%;
+	margin-top: -10px;
+}
+
+/* Footer links and Copyright */
+.f-logo {
+	height: 53px;
+	position: absolute;
+	top:15%;
+	left:8.5%;
+}
+
+.copyright{
+	width: 80%;
+	position: absolute;
+	top: 64%;
+}
+
+.footerlinks {
+	right: 8%;
+	position: absolute;
+	top: 64%;
+	}
+	
+.footerlinks a {
+	color:#4066bA;
+	-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+	text-decoration:none;
+	padding: 0 10px;
+	}
+	
+.footerlinks a:hover {
+	color:#0096D6;
+	text-decoration:underline;
+	}
